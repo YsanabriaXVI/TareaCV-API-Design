@@ -1,0 +1,25 @@
+
+
+
+/* pseudoselector */
+ .boton:hover {
+    background-color: hsl(198, 83%, 47%);
+    cursor: pointer;
+}
+
+ section {
+    max-width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}  */
+
+ section{
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}  
